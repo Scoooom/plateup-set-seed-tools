@@ -50,15 +50,32 @@ export class Shop {
 	mapSize: number;
 	numTiles: number;
 	baseUpgradeChance: number;
+	/**
+	 * "Heat" update (Aug 2026): the January setting's RestaurantStatus.JanuaryRedEnvelopes
+	 * status adds a flat +0.2 (compounded, matching HandleNewShop.cs: `num += (1f - num) * 0.2f`)
+	 * to the upgrade chance on top of everything else. This is intentionally a separate flag
+	 * rather than folded into baseUpgradeChance, since several existing callers already pass
+	 * baseUpgradeChance directly (e.g. `turbo ? 0.25 : 0`) and treating this as an additional
+	 * compounded source avoids any risk of double-counting with that existing mechanism.
+	 * NOTE: HandleNewShop.cs also applies a 0.75x shop-cost multiplier when this status is
+	 * active, but this app doesn't model shop prices anywhere currently, so that part is
+	 * left for whenever price modeling is added.
+	 */
+	januaryRedEnvelopes: boolean;
 	OwnedAppliances: Appliance[];
 	Cards: Unlock[];
 	Theme: DecorationType;
 	private cache: Map<number, Appliance[]> = new Map<number, Appliance[]>();
 	private cacheDay: number;
-	constructor(seed: string, baseUpgradeChance = 0) {
+	constructor(
+		seed: string,
+		baseUpgradeChance = 0,
+		januaryRedEnvelopes = false
+	) {
 		this.seed = seed;
 		[this.mapSize, this.numTiles] = this.getLayoutInfo();
 		this.baseUpgradeChance = baseUpgradeChance;
+		this.januaryRedEnvelopes = januaryRedEnvelopes;
 		this.OwnedAppliances = [];
 		// Appliances.filter((a) => a.Name === "Blueprint Cabinet");
 		this.Cards = [];
@@ -394,7 +411,12 @@ export class Shop {
 	}
 
 	getUpgradeChance(day: number) {
-		return 1 - (1 - Math.floor(day / 5) * 0.1) * (1 - this.baseUpgradeChance);
+		let chance =
+			1 - (1 - Math.floor(day / 5) * 0.1) * (1 - this.baseUpgradeChance);
+		if (this.januaryRedEnvelopes) {
+			chance = chance + (1 - chance) * 0.2;
+		}
+		return chance;
 	}
 }
 
