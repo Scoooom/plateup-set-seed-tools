@@ -170,3 +170,92 @@
 -220105135,Flower Pots,5,,,,,False,False,6,-2,0
 -178381693,Metal Table,5,,,,,False,False,6,0,0
 -373772933,Simple Cloth Table,5,,,,,False,False,6,0,0
+-85470894,Black Coffee,1,,,-1316622579,,False,False,5,1,1
+-1528287489,,0,,,2087693779:1972879238:-523839730,,True,False,0,0,1
+670300431,,0,,,1972879238,,False,False,0,0,0
+-95393944,Ice Cream - Bananas,1,,,,,False,False,5,1,0
+-81988936,Ice Cream - Nuts,1,,,,,False,False,5,1,0
+2105828628,Ice Cream - Strawberry,1,,,,,False,False,5,1,0
+-2072924167,Treat - Cute Customers,6,,,,,False,False,6,0,0
+942723993,Treat - Blueprint Boom,6,,,,,False,False,6,0,0
+-1086090066,Treat - Affordable Aesthetic,6,,-1857686620:-1086090066:761584062:5738470:898820513,,,False,False,6,0,0
+761584062,Treat - Charming Character,6,,1293847744:-1086090066:761584062:5738470:898820513,,,False,False,6,0,0
+5738470,Treat - Exclusive Extravagance,6,,-1323758054:-1086090066:761584062:5738470:898820513,,,False,False,6,0,0
+898820513,Treat - Fancy Feelings,6,,-1641333859:-1086090066:761584062:5738470:898820513,,,False,False,6,0,0
+-1728887993,Treat - Wonderful Windfall,6,,,,,False,False,6,0,0
+-1839415999,Trick - Spatial Scares,6,,,,,False,False,6,1,0
+-241426865,Trick - Burning Books,6,,,,,False,False,6,1,0
+-338554380,Sweetcorn,1,,,,,False,False,3,1,0
+-1409566802,Dessert Waffles,1,,,,,False,False,5,1,0
+1491215862,Flower Pots,6,,,,,False,False,6,0,0
+1958825350,Turbo,6,,,,,False,False,6,0,0
+746549422,Coffee Shop,6,,,,,False,False,6,0,0
+-1115351824,Cake Batter,1,,,,,False,False,0,0,0
+-1081939710,Cake Flavour - Chocolate,1,,,1972879238,,False,False,0,1,0
+1902212503,Cookies,1,,,-1706154991:-523839730,,False,False,0,-1,1
+-192521877,Enchantment,6,,,,,False,False,6,0,0
+1764920765,Spaghetti,1,,,1972879238:2087693779,,True,False,0,1,3
+-1974675533,Spaghetti II: Extra Starch,1,,,,,False,False,0,0,2
+1411587046,Spaghetti I: Traditional Recipe,1,,,,,False,False,0,-1,1
+-1889522844,Easy Street,6,,,,,False,False,6,0,0
+-1542554250,Friendly Faces,6,,,,,False,False,6,0,0
+1134277391,Purrvana,6,,,,,False,False,6,0,0
+-1409140412,Overheat 5,6,,,,,False,False,6,0,0
+1358714374,Overheating,6,,,,,False,False,6,-1,0
+118281906,Hot Desking,6,,,,,False,False,6,-1,0
+-1636036373,Friction Burns,6,,,,,False,False,6,-1,0
+-1280757615,Hotheads,6,,,,,False,False,6,-1,0
+1382681650,Second Bite,6,,,,,False,False,6,-1,0
+1510465155,Customer Crowds,6,,,,,False,False,6,-1,0
+1898278106,Health Concerns,6,,,,,False,False,6,0,0
+1901536762,Popularity Crisis,6,,,,,False,False,6,0,0
+737629539,Flaming Knives,6,,,,,False,False,6,0,0
+-2134682523,Soft Touch,6,,,,,False,False,6,0,0
+2137249839,Elephant Queues,6,,,,,False,False,6,0,0
+-43856987,Rented Restaurants,6,,,,,False,False,6,0,0
+421796067,Ends and Beginnings,6,,,,,False,False,6,-2,0
+1299515713,Shaky Foundations,6,,,,,False,False,6,0,0
+-1128294925,Dubious Desks,6,,,,,False,False,6,0,0
+-823626125,Fajitas - Bell Peppers,1,544487102,,2087693779,,False,False,2,1,0
+-525525407,Fajitas - Cheese,1,544487102,,2087693779,,False,False,2,1,0
+-780950614,Fajitas - Onion,1,544487102,,2087693779,,False,False,2,1,0
+-960612653,Fajitas - Crema,1,544487102,,2087693779,,False,False,2,1,0
+-1315816541,Fajitas - Guacamole,1,544487102:-1438205860,,2087693779,,False,False,2,2,0
+-1438205860,Fajitas - Salsa,1,544487102,,2087693779,,False,False,2,2,0
+693878802,Fajitas - Tomato,1,544487102,,2087693779,,False,False,2,1,0
+544487102,Fajitas,1,,,1972879238,,True,False,0,0,1
+-1451591918,Sundaes II: Homemade,1,,,-523839730:-1853370850,,False,False,2,2,4
+620309357,Sundaes I: Scoops,1,,,,,False,False,2,1,4
+934171642,Sundaes,1,,373996608,,,False,False,0,0,2
+-690833761,Giant Sundaes,1,934171642,,,,False,False,5,1,3
+431260200,Sundae Syrups,1,934171642,,,,False,False,2,1,2
+1879652468,Sundae Toppings,1,934171642,,2087693779,,False,False,2,1,3
+-1272159363,Sandwiches,1,,,2087693779:-523839730:-1706154991,,True,False,0,1,3
+641008296,Club Sandwiches,1,-72176411:-778718372,,,,True,False,2,2,3
+-1795285445,Giant Sandwiches,1,-1272159363,,,,True,False,2,2,1
+-72176411,Toast Sandwich,1,-1272159363,,-1706154991,,True,False,2,1,3
+-469306490,Sandwich - Cheese,1,-1272159363,,2087693779,,False,False,2,1,0
+525953646,Sandwich - Eggs,1,-1272159363,,2087693779:1972879238,,False,False,2,1,0
+-778718372,Sandwich - Mayo,1,-1272159363,,2087693779:-523839730,,False,False,2,1,0
+368792675,Sandwich - Toppers,1,-1272159363,,,,False,False,2,1,0
+1989028383,Banquet Dining,6,,,,,False,False,6,0,0
+-2066052899,Christmas Treats,6,,,,,False,False,6,0,0
+506626805,Tacos,1,,,1972879238,,True,False,0,-1,1
+-1690048134,Variety,5,,319209671:16318784,,,False,False,6,0,0
+2026578658,Variety,5,,319209671:16318784,,,False,False,6,0,0
+-437866401,Variety,5,,319209671:16318784,,,False,False,6,0,0
+-1122993754,Variety,5,,319209671:16318784,,,False,False,6,0,0
+-1189327033,Variety,5,,319209671:16318784,,,False,False,6,0,0
+1366303950,Variety,5,,,,,False,False,6,0,0
+779560009,Renown,5,,,,,False,False,6,0,0
+337471011,Expansion,5,,,,,False,False,6,0,0
+1197914155,Discount,5,,,,,False,False,6,0,0
+-1641150757,Simplicity,5,,,,,False,False,6,0,0
+686050224,Focus,5,,,,,False,False,6,0,0
+-760406109,Quality,5,,,,,False,False,6,0,0
+-771711089,Variety,5,,,,,False,False,6,0,0
+840658034,Renown,5,,,,,False,False,6,0,0
+965426081,Expectation,5,,,,,False,False,6,0,0
+-1586319402,Variety,5,,,,,False,False,6,0,0
+-1893812821,Renown,5,,,,,False,False,6,0,0
+1689349004,Expectation,5,,,,,False,False,6,0,0
