@@ -120,6 +120,12 @@ export class Shop {
 	handleNewCardSpawnEffects(card?: Unlock) {
 		if (card === undefined) return;
 		if (card.Name === "Turbo") this.baseUpgradeChance = 0.25;
+		// "Heat" update (Aug 2026): EnableStatusByMapType.cs sets RestaurantStatus.
+		// JanuaryRedEnvelopes whenever the active RestaurantSetting is January (ID
+		// 507410699, see unlocks.ts) - it's tied to the setting itself, not a granted
+		// card, so this mirrors that by keying off the same pseudo-card ID the January
+		// setting is represented by in this app's card-entry flow.
+		if (card.ID === 507410699) this.januaryRedEnvelopes = true;
 		if (card.UnlockGroup === UnlockGroup.PrimaryTheme) {
 			// @ts-expect-error
 			this.Theme = DecorationType[card.Name];

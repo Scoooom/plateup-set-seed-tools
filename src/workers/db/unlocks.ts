@@ -191,6 +191,24 @@ export const SpeedrunRestaurantSettings: Unlock[] = [
 		DishValue: 0,
 	},
 	Unlocks.filter((a) => a.Name === "Christmas Rush")[0],
+	{
+		ID: 507410699,
+		// NOTE: "January Setting.asset" doesn't have a plaintext Name field (it's inside
+		// the Odin-serialized blob, which we haven't decoded) - "January" is inferred from
+		// the asset filename convention other settings follow (e.g. "Country", not "Country
+		// Setting"), not read directly. Worth double-checking in-game if this ever misses.
+		Name: "January",
+		UnlockGroup: UnlockGroup.Special,
+		Requires: [],
+		BlockedBy: [],
+		RequiredProcesses: [],
+		IngredientProviders: [],
+		isMain: false,
+		isStarterOrSide: false,
+		DishType: DishType.Null,
+		CustomerMultiplier: 0,
+		DishValue: 0,
+	},
 ];
 export const RestaurantSettings = [...SpeedrunRestaurantSettings].sort((a, b) =>
 	a.Name < b.Name ? -1 : 1
