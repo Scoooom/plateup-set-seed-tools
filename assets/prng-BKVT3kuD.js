@@ -1,0 +1,313 @@
+var E=Object.defineProperty;var v=(e,a,s)=>a in e?E(e,a,{enumerable:!0,configurable:!0,writable:!0,value:s}):e[a]=s;var S=(e,a,s)=>v(e,typeof a!="symbol"?a+"":a,s);var u=(e=>(e[e.Generic=0]="Generic",e[e.Dish=1]="Dish",e[e.PrimaryTheme=3]="PrimaryTheme",e[e.SecondaryTheme=4]="SecondaryTheme",e[e.Franchise=5]="Franchise",e[e.Special=6]="Special",e))(u||{}),i=(e=>(e[e.Base=0]="Base",e[e.Main=1]="Main",e[e.Extra=2]="Extra",e[e.Side=3]="Side",e[e.Starter=4]="Starter",e[e.Dessert=5]="Dessert",e[e.Null=6]="Null",e))(i||{});const x=`373996608,Ice Cream,1,,934171642,,-1533430406,False,False,5,1,1
+-2075899,Breakfast,1,,,-523839730:-1706154991,380220741:925796718,True,False,0,0,3
+-1199743580,Breakfast Beans,1,-2075899,,1972879238,1807525572:-957949759,False,False,2,1,0
+1436814208,Breakfast Eggs,1,-2075899,,1972879238:2087693779,961148621,False,False,2,1,0
+-1998930853,Breakfast Extras,1,-2075899,,2087693779,-712909563:-1097889139,False,False,2,1,0
+-1778969928,Burgers,1,,,1972879238,759552160:380220741:385684499,True,False,0,-2,1
+965292477,Cheeseburgers,1,-1778969928,,1972879238:2087693779,759552160:380220741:385684499:-117339838,False,False,2,1,0
+-1091625127,Fresh Patties,1,-1778969928,,1972879238:2087693779,759552160:380220741:961148621:-484165118,False,False,2,1,0
+1298035216,Burger Toppings,1,-1778969928,,1972879238:2087693779,759552160:380220741:-712909563:385684499:-2042103798,False,False,2,1,0
+1626323920,Hot Dogs,1,,,1972879238,-1132411297:380220741:1799769627:-965827229,True,False,0,-1,3
+-278713285,Hot Dog - Mustard,1,1626323920,,,-117356585,False,False,2,1,0
+1743900205,Fish,1,,,1972879238,-609358791:380220741:-1735137431,True,False,0,1,3
+-297968808,Crab Cake,1,1743900205,,2087693779:1972879238,380220741:925796718:961148621,True,False,1,1,5
+243846255,Fish Selection,1,1442262270,,,-609358791,False,False,2,0,0
+-243820179,Fish Selection,1,274986412,,,-609358791,False,False,2,0,0
+1442262270,Fish Fillet,1,1743900205,,1972879238:2087693779,380220741,True,False,1,1,3
+274986412,Oysters,1,1743900205,,2087693779,380220741,True,False,1,1,3
+-643878280,Spiny Fish,1,1743900205,,2087693779,380220741,True,False,1,1,3
+-211821608,Apple Pies,1,,,2087693779:1972879238:-523839730,925796718:-266993023:-905438738,False,False,5,1,1
+-133939790,Pies,1,,,-1706154991:-523839730,925796718:-484165118:-266993023:380220741,True,False,0,1,5
+-1992316049,Mushroom Pies,1,-133939790,,2087693779:1972879238:-523839730,-1097889139:925796718:-266993023,False,False,1,1,0
+-1802123036,Vegetable Pies,1,-133939790,,2087693779:1972879238:-523839730,925796718:-266993023:-452101383:-1573812073,False,False,1,1,0
+1570910782,Apple Salad,1,1356267749,,2087693779,1193867305:-712909563:380220741:-905438738:1834063794:-1963699221:961148621,True,False,1,2,5
+1356267749,Salad,1,,,2087693779,1193867305:-712909563:380220741,True,False,0,-1,1
+-862637543,Potato Salad,1,1356267749,,2087693779:1972879238,-1963699221:961148621:44541785:-957949759:-2042103798:-266993023,True,False,1,2,5
+372460604,Salad Toppings,1,1356267749,,,-1434800013:-2042103798,False,False,2,1,0
+1384317454,Bone-in Steaks,1,-959076098,,1972879238,269523389,True,False,1,1,5
+-959076098,Steak,1,,,1972879238,-484165118:380220741,True,False,0,0,3
+-953651922,Steak Sauce - Mushroom,1,-959076098,,1972879238:2087693779,-1097889139:-266993023:-2042103798:-957949759,False,False,2,1,0
+2074054556,Steak Sauce - Red Wine Jus,1,-959076098,,1972879238,-957949759:-2042103798:-266993023:-1353971407,False,False,2,1,0
+-1192928429,Steak Topping - Mushroom,1,-959076098,,2087693779,-1097889139,False,False,2,1,0
+-851525606,Steak Topping - Tomato,1,-959076098,,2087693779,-712909563,False,False,2,1,0
+1916300984,Thick Cut Steaks,1,-959076098,,1972879238,-1507801323,True,False,1,1,5
+-1716993344,Thin Cut Steaks,1,-959076098,,1972879238,1800865634,True,False,1,1,3
+-1653221873,Stir Fry,1,,,2087693779:1972879238,-452101383:-1573812073:380220741:-1201769154:314862254,True,False,0,1,5
+-204178430,Steak Stir Fry,1,-1653221873,,2087693779:1972879238,-1201769154:314862254:-484165118:-452101383:380220741:-1573812073,False,False,1,1,0
+1380953991,Broccoli,1,,,1972879238,-1573812073:-957949759:-266993023,False,True,3,1,1
+-520693398,Chips,1,,,1972879238:2087693779,44541785,False,True,3,1,1
+364243605,Mashed Potato,1,,,1972879238:2087693779,-957949759:44541785:-266993023,False,True,3,1,1
+2012685115,Carrot Soup,1,,,1972879238,-266993023:-2042103798:-452101383:-957949759,False,True,4,1,1
+-997241706,Meat Soup,1,,,1972879238,-484165118:-2042103798:-957949759:-266993023,False,True,4,1,1
+-233806503,Tomato Soup,1,,,1972879238:2087693779,-712909563:-2042103798:-957949759:-266993023,False,True,4,1,1
+312770813,Cheese Board,1,,,2087693779,-905438738:235423916:-117339838:1834063794,False,False,5,1,1
+550743424,Pizza,1,,,2087693779:-1706154991:-523839730,925796718:-1963699221:-117339838:-712909563:380220741,True,False,0,0,3
+1434421325,Mushroom Pizza,1,550743424,,2087693779:-1706154991:-523839730,925796718:-1963699221:-117339838:-712909563:380220741:-1097889139,False,False,2,1,0
+-2071275506,Onion Pizza,1,550743424,,2087693779:-1706154991:-523839730,-117339838:925796718:-2042103798:-1963699221:380220741:-712909563,False,False,2,1,0
+-1745179096,Onion Rings,1,,,1972879238:2087693779,-2042103798:925796718,False,True,3,1,1
+1642577536,Herd Mentality,0,,,,,False,False,6,0,0
+-1737101581,Health and Safety,0,,,,,False,False,6,0,0
+-2040314977,Picky Eaters,0,,,,,False,False,6,0,0
+73422455,Tipping Culture,0,,,,,False,False,6,0,0
+1168007081,Corn on the Cob,1,,,1972879238,976574457,False,True,3,1,1
+400765800,Pumpkin Pies,1,,,2087693779:1972879238:-523839730,-1055654549:925796718,False,False,5,1,1
+1393945424,Pumpkin Seed,1,,,1972879238,-1055654549,False,True,4,1,1
+1984233383,Pumpkin Soup,1,,,1972879238,-266993023:-2042103798:-1055654549:-957949759,False,True,4,1,1
+1838568431,Trick - Nasty Nightmares,6,,,,,False,False,6,1,0
+61056284,Trick - Risky Reservations,6,,,,,False,False,6,1,0
+2112990883,Trick - Freak Fires,6,,,,,False,False,6,2,0
+-1477157706,Trick - Mysterious Messes,6,,,,,False,False,6,1,0
+-209485820,Trick - Dark Deliberations,6,,,,,False,False,6,1,0
+83673522,Trick - Spooky Solos,6,,,,,False,False,6,1,0
+1139286658,Trick - Pyro Patrons,6,,,,,False,False,6,2,0
+79859072,Trick - Cowardly Customers,6,,,,,False,False,6,1,0
+-2123879305,Trick - Full of Friends,6,,,,,False,False,6,1,0
+-1895806374,Trick - Grand Gesture,6,,,,,False,False,6,1,0
+-269971294,Trick - Frightful Fluff,6,,,,,False,False,6,1,0
+1892828942,Trick - Immortal Impatience,6,,,,,False,False,6,2,0
+524188336,Trick - Foggy Food,6,,,,,False,False,6,1,0
+797208634,Trick - Vanishing Valuables,6,,,,,False,False,6,1,0
+561747534,Trick - Careful Conveyance,6,,,,,False,False,6,1,0
+-1921275517,Trick - Tiring Times,6,,,,,False,False,6,1,0
+319209671,Community,6,,,,,False,False,6,1,0
+536093200,Nut Roast,1,1551533879,,2087693779:-1706154991,1834063794:380220741:-2042103798,True,False,1,1,3
+-1405391769,Affogato,1,16318784:373996608,,,-1609758240:-1533430406,False,False,5,1,1
+1847735819,Bread,1,,,1972879238,925796718:235423916,False,True,4,1,1
+-1015158173,Broccoli Cheese Soup,1,,,1972879238,-1573812073:-957949759:-117339838:-266993023:-2042103798,False,True,4,1,1
+12170609,Cherry Pies,1,,,1972879238,148543530:925796718:-266993023,False,False,5,1,1
+-1289628495,Roast Potato,1,,,1972879238,44541785,False,True,3,1,1
+1551533879,Turkey,1,,,-1706154991,-1506824829:380220741,True,False,0,1,3
+-361249036,Christmas Rush,6,,,,,False,False,6,0,0
+878396172,Christmas Crackers,1,1551533879,,,303858729,False,True,4,1,1
+1398180456,Turkey - Cranberry Sauce,1,1551533879,,2087693779,735786885:-2133205155,False,False,2,1,0
+-1460640973,Turkey - Gravy,1,1551533879,,1972879238,-2042103798:-957949759:-266993023,False,False,2,1,0
+-1243742384,Turkey - Stuffing,1,1551533879,,2087693779:1972879238:-523839730,-2042103798:925796718:-266993023,False,False,2,2,0
+-1273613313,Lucky Gift,6,,,,,False,False,6,1,0
+-1742801708,Bamboo,1,,,1972879238,-2092567672:-266993023:-957949759,False,True,3,1,1
+-437161441,Bamboo Stir Fry,1,-1653221873,,2087693779:1972879238,-1201769154:314862254:-2092567672:-452101383:380220741:-1573812073:-957949759:-266993023,False,False,1,1,0
+-1759612454,Dumpling - Soy Sauce,1,367917843,,,-471813067,False,False,2,1,0
+367917843,Dumplings,1,,,1972879238:-523839730:2087693779,925796718:-484165118:-452101383:380220741,True,False,0,2,5
+137627410,Seaweed,1,367917843,,1972879238,595306349,False,False,2,1,0
+1696424557,Mandarin Starter,1,,,,-1210117767,False,True,4,1,1
+1642878331,Mushroom Stir Fry,1,-1653221873,,2087693779:1972879238,-1097889139:-1573812073:-452101383:380220741:-1201769154:314862254,False,False,1,1,0
+1064343768,Stir Fry - Soy Sauce,1,-1653221873,,,-471813067,False,False,2,1,0
+-2106646073,Couples,6,,,,,False,False,6,0,0
+2028238661,Double Dates,0,-2106646073,,,,False,False,6,0,0
+587399881,First Dates,0,-2106646073,,,,False,False,6,0,0
+251686519,Double Brew,0,746549422,,,,False,False,6,0,0
+2079359756,Slow Brew Coffee,1,746549422:16318784,,,,False,False,6,0,0
+1103885337,Cake Stand,1,16318784:16318784,,,143484231,False,False,2,1,0
+16318784,Coffee,1,,,-1316622579,-1609758240,False,False,0,-2,1
+-740215310,Extra Milk,1,16318784,,,120342736,False,False,2,1,0
+-696561631,Extra Sugar,1,16318784,,,-2133205155,False,False,2,1,0
+2133632711,Iced Coffee,1,16318784,,-1316622579,-1609758240:801015432,False,False,2,1,1
+-141282934,Latte,1,16318784,,-1316622579:510796221,-1609758240:120342736,False,False,2,1,1
+1398671754,Tea,1,16318784,,,-1598460622:1377093570:-762638188:-266993023,False,False,2,1,1
+1316998108,Sponge Cake,1,1113735761,,-1706154991:-523839730,-660310536:961148621:925796718:120342736:-217313684:-2133205155,False,False,5,-1,3
+1609120418,Brownies,1,1113735761,,-1706154991:-523839730,783588616:-2135982034:961148621:925796718:-217313684:-2133205155,False,False,5,-1,1
+-810134986,Cake Flavour - Coffee,1,1113735761,,-1316622579,-1609758240,False,False,5,1,1
+-1693098895,Cake Flavour - Lemon,1,1113735761,,2087693779,1470180731,False,False,5,1,1
+627241196,Cupcake,1,1113735761,,-1706154991:-523839730,-315287689:961148621:925796718:120342736:-217313684:-2133205155,False,False,5,-1,3
+-1166412657,Doughnut,1,1113735761,,-523839730:1972879238,2136474391:961148621:925796718:120342736:-217313684:-2133205155:-1963699221:-957949759,False,False,5,-1,3
+1113735761,Cakes,1,,,-1706154991:-523839730:1972879238,-1723125645:961148621:925796718:-217313684:-2133205155:783588616,False,False,0,0,1
+-1501485763,Spaghetti Bolognese,1,1764920765,,1972879238:2087693779,-1541798751:-182748008:-266993023:-957949759:380220741:-712909563,True,False,1,1,5
+803049136,Lasagne,1,-1501485763:1651927267,,-1706154991:1972879238:-523839730,-2077197906:-1541798751:-215543585:120342736:925796718:-957949759:380220741:-712909563:-1339944542,True,False,1,2,5
+1651927267,Cheesy Spaghetti,1,1764920765,,1972879238:2087693779,925796718:-182748008:-266993023:-957949759:380220741:120342736:-215543585:-117339838,True,False,1,1,5
+675343178,Tacos - Cheese,1,506626805,,2087693779,-117339838,False,False,2,1,0
+-2122069505,Tacos - Lettuce,1,506626805,,2087693779,1193867305,False,False,2,1,0
+706991842,Tacos - Onion,1,506626805,,2087693779,-2042103798,False,False,2,1,0
+-1656665053,Tacos - Tomato,1,506626805,,2087693779,-712909563,False,False,2,1,0
+2055765569,Double Helpings,0,-347199069,,,,False,False,6,1,0
+-347199069,All You Can Eat,0,,,,,False,False,6,2,0
+233335391,Personalised Waiting,0,,,,,False,False,6,0,0
+-1815978981,Closing Time?,0,,,,,False,False,6,0,0
+-287956430,Leisurely Eating,0,,,,,False,False,6,1,0
+220354841,Sedate Atmosphere,0,,,,,False,False,6,0,0
+-37551439,Dinner Rush,0,,1958825350,,,False,False,6,0,0
+-2112255403,Flexible Dining,0,-1183014556,,,,False,False,6,0,0
+-1747821833,Individual Dining,0,,-1183014556,,,False,False,6,0,0
+-523195599,Large Groups,0,-1183014556,,,,False,False,6,0,0
+-1183014556,Medium Groups,0,,-1747821833,,,False,False,6,0,0
+165138001,Photographic Memory,0,,,,,False,False,6,0,0
+-28708234,Empathy,0,,,,,False,False,6,0,0
+-1617744928,Blindfolded Chefs,0,,,,,False,False,6,0,0
+1530184692,Instant Service,0,,1989028383:746549422,,,False,False,6,0,0
+113582858,Discounts,0,,,,,False,False,6,0,0
+-913531466,Victorian Standards,0,,,,,False,False,6,0,0
+-53330922,Lunch Rush,0,,1958825350,,,False,False,6,0,0
+-491994319,Splash Zone,0,,,,,False,False,6,0,0
+1151685289,Relaxed Atmosphere,0,,,,,False,False,6,0,0
+73387665,Advertising,0,1765310572,,,,False,False,6,0,0
+1765310572,Advertising,0,,,,,False,False,6,0,0
+2079763934,Morning Rush,0,,1958825350,,,False,False,6,0,0
+1914014233,Simplicity,0,,,,,False,False,6,0,0
+-534291083,High Expectations,0,,,,,False,False,6,0,0
+-957080051,High Standards,0,,1356267749,,,False,False,6,0,0
+1103452725,High Quality,0,,,,,False,False,6,0,0
+-1857686620,Affordable,3,,,,,False,False,6,0,0
+1293847744,Charming,3,,,,,False,False,6,0,0
+-1323758054,Exclusive,3,,,,,False,False,6,0,0
+-1641333859,Formal,3,,,,,False,False,6,0,0
+409052852,Variety,5,,319209671:16318784,,,False,False,6,0,0
+-1205203705,Careful Accounting,5,,,,,False,False,6,-2,0
+-947047181,Mandatory Tips,5,,,,,False,False,6,-2,0
+1298492736,Grabber,5,,,,,False,False,6,-2,0
+1173444265,Wash Basin,5,,,,,False,False,6,-2,0
+-1096314451,Savings,5,,,,,False,False,6,-2,0
+2022427578,Reincarnation,5,,,,,False,False,6,-2,0
+-401283600,Preparation Time,5,,,,,False,False,6,-2,0
+-357483693,Double Homework,5,,,,,False,False,6,-2,0
+868780472,Catalogue,5,,,,,False,False,6,-2,0
+-1418317596,Coupons,5,,,,,False,False,6,-2,0
+-98765415,Supplier Error,5,,,,,False,False,6,-2,0
+1618418478,Bootstrapping,5,,,,,False,False,6,-2,0
+1543829883,Second Helpings,5,,,,,False,False,6,-2,0
+-1010143518,Loyal Customer,5,,,,,False,False,6,-2,0
+-1269806478,High Tech Suppliers,5,,,,,False,False,6,-2,0
+1818403570,Conveyors,5,,,,,False,False,6,-2,0
+-1121427945,Coffee Tables,5,,,,,False,False,6,-2,0
+1101419251,Floor Protectors,5,,,,,False,False,6,-2,0
+-220105135,Flower Pots,5,,,,,False,False,6,-2,0
+-178381693,Metal Table,5,,,,,False,False,6,0,0
+-373772933,Simple Cloth Table,5,,,,,False,False,6,0,0
+-85470894,Black Coffee,1,,,-1316622579,,False,False,5,1,1
+-1528287489,,0,,,2087693779:1972879238:-523839730,,True,False,0,0,1
+670300431,,0,,,1972879238,,False,False,0,0,0
+-95393944,Ice Cream - Bananas,1,,,,,False,False,5,1,0
+-81988936,Ice Cream - Nuts,1,,,,,False,False,5,1,0
+2105828628,Ice Cream - Strawberry,1,,,,,False,False,5,1,0
+-2072924167,Treat - Cute Customers,6,,,,,False,False,6,0,0
+942723993,Treat - Blueprint Boom,6,,,,,False,False,6,0,0
+-1086090066,Treat - Affordable Aesthetic,6,,-1857686620:-1086090066:761584062:5738470:898820513,,,False,False,6,0,0
+761584062,Treat - Charming Character,6,,1293847744:-1086090066:761584062:5738470:898820513,,,False,False,6,0,0
+5738470,Treat - Exclusive Extravagance,6,,-1323758054:-1086090066:761584062:5738470:898820513,,,False,False,6,0,0
+898820513,Treat - Fancy Feelings,6,,-1641333859:-1086090066:761584062:5738470:898820513,,,False,False,6,0,0
+-1728887993,Treat - Wonderful Windfall,6,,,,,False,False,6,0,0
+-1839415999,Trick - Spatial Scares,6,,,,,False,False,6,1,0
+-241426865,Trick - Burning Books,6,,,,,False,False,6,1,0
+-338554380,Sweetcorn,1,,,,,False,False,3,1,0
+-1409566802,Dessert Waffles,1,,,,,False,False,5,1,0
+1491215862,Flower Pots,6,,,,,False,False,6,0,0
+1958825350,Turbo,6,,,,,False,False,6,0,0
+746549422,Coffee Shop,6,,,,,False,False,6,0,0
+-1115351824,Cake Batter,1,,,,,False,False,0,0,0
+-1081939710,Cake Flavour - Chocolate,1,,,1972879238,,False,False,0,1,0
+1902212503,Cookies,1,,,-1706154991:-523839730,,False,False,0,-1,1
+-192521877,Enchantment,6,,,,,False,False,6,0,0
+1764920765,Spaghetti,1,,,1972879238:2087693779,,True,False,0,1,3
+-1974675533,Spaghetti II: Extra Starch,1,,,,,False,False,0,0,2
+1411587046,Spaghetti I: Traditional Recipe,1,,,,,False,False,0,-1,1
+-1889522844,Easy Street,6,,,,,False,False,6,0,0
+-1542554250,Friendly Faces,6,,,,,False,False,6,0,0
+1134277391,Purrvana,6,,,,,False,False,6,0,0
+-1409140412,Overheat 5,6,,,,,False,False,6,0,0
+1358714374,Overheating,6,,,,,False,False,6,-1,0
+118281906,Hot Desking,6,,,,,False,False,6,-1,0
+-1636036373,Friction Burns,6,,,,,False,False,6,-1,0
+-1280757615,Hotheads,6,,,,,False,False,6,-1,0
+1382681650,Second Bite,6,,,,,False,False,6,-1,0
+1510465155,Customer Crowds,6,,,,,False,False,6,-1,0
+1898278106,Health Concerns,6,,,,,False,False,6,0,0
+1901536762,Popularity Crisis,6,,,,,False,False,6,0,0
+737629539,Flaming Knives,6,,,,,False,False,6,0,0
+-2134682523,Soft Touch,6,,,,,False,False,6,0,0
+2137249839,Elephant Queues,6,,,,,False,False,6,0,0
+-43856987,Rented Restaurants,6,,,,,False,False,6,0,0
+421796067,Ends and Beginnings,6,,,,,False,False,6,-2,0
+1299515713,Shaky Foundations,6,,,,,False,False,6,0,0
+-1128294925,Dubious Desks,6,,,,,False,False,6,0,0
+-823626125,Fajitas - Bell Peppers,1,544487102,,2087693779,,False,False,2,1,0
+-525525407,Fajitas - Cheese,1,544487102,,2087693779,,False,False,2,1,0
+-780950614,Fajitas - Onion,1,544487102,,2087693779,,False,False,2,1,0
+-960612653,Fajitas - Crema,1,544487102,,2087693779,,False,False,2,1,0
+-1315816541,Fajitas - Guacamole,1,544487102:-1438205860,,2087693779,,False,False,2,2,0
+-1438205860,Fajitas - Salsa,1,544487102,,2087693779,,False,False,2,2,0
+693878802,Fajitas - Tomato,1,544487102,,2087693779,,False,False,2,1,0
+544487102,Fajitas,1,,,1972879238,,True,False,0,0,1
+-1451591918,Sundaes II: Homemade,1,,,-523839730:-1853370850,,False,False,2,2,4
+620309357,Sundaes I: Scoops,1,,,,,False,False,2,1,4
+934171642,Sundaes,1,,373996608,,,False,False,0,0,2
+-690833761,Giant Sundaes,1,934171642,,,,False,False,5,1,3
+431260200,Sundae Syrups,1,934171642,,,,False,False,2,1,2
+1879652468,Sundae Toppings,1,934171642,,2087693779,,False,False,2,1,3
+-1272159363,Sandwiches,1,,,2087693779:-523839730:-1706154991,,True,False,0,1,3
+641008296,Club Sandwiches,1,-72176411:-778718372,,,,True,False,2,2,3
+-1795285445,Giant Sandwiches,1,-1272159363,,,,True,False,2,2,1
+-72176411,Toast Sandwich,1,-1272159363,,-1706154991,,True,False,2,1,3
+-469306490,Sandwich - Cheese,1,-1272159363,,2087693779,,False,False,2,1,0
+525953646,Sandwich - Eggs,1,-1272159363,,2087693779:1972879238,,False,False,2,1,0
+-778718372,Sandwich - Mayo,1,-1272159363,,2087693779:-523839730,,False,False,2,1,0
+368792675,Sandwich - Toppers,1,-1272159363,,,,False,False,2,1,0
+1989028383,Banquet Dining,6,,,,,False,False,6,0,0
+-2066052899,Christmas Treats,6,,,,,False,False,6,0,0
+506626805,Tacos,1,,,1972879238,,True,False,0,-1,1
+-1690048134,Variety,5,,319209671:16318784,,,False,False,6,0,0
+2026578658,Variety,5,,319209671:16318784,,,False,False,6,0,0
+-437866401,Variety,5,,319209671:16318784,,,False,False,6,0,0
+-1122993754,Variety,5,,319209671:16318784,,,False,False,6,0,0
+-1189327033,Variety,5,,319209671:16318784,,,False,False,6,0,0
+1366303950,Variety,5,,,,,False,False,6,0,0
+779560009,Renown,5,,,,,False,False,6,0,0
+337471011,Expansion,5,,,,,False,False,6,0,0
+1197914155,Discount,5,,,,,False,False,6,0,0
+-1641150757,Simplicity,5,,,,,False,False,6,0,0
+686050224,Focus,5,,,,,False,False,6,0,0
+-760406109,Quality,5,,,,,False,False,6,0,0
+-771711089,Variety,5,,,,,False,False,6,0,0
+840658034,Renown,5,,,,,False,False,6,0,0
+965426081,Expectation,5,,,,,False,False,6,0,0
+-1586319402,Variety,5,,,,,False,False,6,0,0
+-1893812821,Renown,5,,,,,False,False,6,0,0
+1689349004,Expectation,5,,,,,False,False,6,0,0
+`,V=`-959076098,Steak,1,1972879238,-484165118:380220741,True,False,0,0,3
+1356267749,Salad,1,2087693779,1193867305:-712909563:380220741,True,False,0,-1,1
+550743424,Pizza,1,2087693779:-1706154991:-523839730,925796718:-1963699221:-117339838:-712909563:380220741,True,False,0,0,3
+367917843,Dumplings,1,1972879238:-523839730:2087693779,925796718:-484165118:-452101383:380220741,True,False,0,2,5
+16318784,Coffee,1,-1316622579,-1609758240,False,False,0,-2,1
+-1778969928,Burgers,1,1972879238,759552160:380220741:385684499,True,False,0,-2,1
+1551533879,Turkey,1,-1706154991,-1506824829:380220741,True,False,0,1,3
+-133939790,Pies,1,-1706154991:-523839730,925796718:-484165118:-266993023:380220741,True,False,0,1,5
+1113735761,Cakes,1,-1706154991:-523839730:1972879238,-1723125645:961148621:925796718:-217313684:-2133205155:783588616,False,False,0,0,1
+1764920765,Spaghetti,1,1972879238:2087693779,-182748008:-266993023:-957949759:380220741:-712909563,True,False,0,1,3
+1743900205,Fish,1,1972879238,-609358791:380220741:-1735137431,True,False,0,1,3
+506626805,Tacos,1,1972879238,-5840756:-1541798751:745886540,True,False,0,-1,1
+1626323920,Hot Dogs,1,1972879238,-1132411297:380220741:1799769627:-965827229,True,False,0,-1,3
+-2075899,Breakfast,1,-523839730:-1706154991,380220741:925796718,True,False,0,0,3
+-1653221873,Stir Fry,1,2087693779:1972879238,-452101383:-1573812073:380220741:-1201769154:314862254,True,False,0,1,5
+-85470894,Black Coffee,1,-1316622579,,False,False,5,1,1
+373996608,Ice Cream,1,,,False,False,5,1,1
+-211821608,Apple Pies,1,2087693779:1972879238:-523839730,,False,False,5,1,1
+1380953991,Broccoli,1,1972879238,,False,True,3,1,1
+-520693398,Chips,1,1972879238:2087693779,,False,True,3,1,1
+364243605,Mashed Potato,1,1972879238:2087693779,,False,True,3,1,1
+2012685115,Carrot Soup,1,1972879238,,False,True,4,1,1
+-997241706,Meat Soup,1,1972879238,,False,True,4,1,1
+-233806503,Tomato Soup,1,1972879238:2087693779,,False,True,4,1,1
+312770813,Cheese Board,1,2087693779,,False,False,5,1,1
+-1745179096,Onion Rings,1,1972879238:2087693779,,False,True,3,1,1
+1168007081,Corn on the Cob,1,1972879238,,False,True,3,1,1
+-95393944,Ice Cream - Bananas,1,,,False,False,5,1,0
+-81988936,Ice Cream - Nuts,1,,,False,False,5,1,0
+2105828628,Ice Cream - Strawberry,1,,,False,False,5,1,0
+400765800,Pumpkin Pies,1,2087693779:1972879238:-523839730,,False,False,5,1,1
+1393945424,Pumpkin Seed,1,1972879238,,False,True,4,1,1
+1984233383,Pumpkin Soup,1,1972879238,,False,True,4,1,1
+1847735819,Bread,1,1972879238,,False,True,4,1,1
+-1015158173,Broccoli Cheese Soup,1,1972879238,,False,True,4,1,1
+12170609,Cherry Pies,1,1972879238,,False,False,5,1,1
+-1289628495,Roast Potato,1,1972879238,,False,True,3,1,1
+-338554380,Sweetcorn,1,,,False,False,3,1,0
+-1409566802,Dessert Waffles,1,,,False,False,5,1,0
+-1742801708,Bamboo,1,1972879238,,False,True,3,1,1
+1696424557,Mandarin Starter,1,,,False,True,4,1,1
+-1115351824,Cake Batter,1,,,False,False,0,0,0
+-1081939710,Cake Flavour - Chocolate,1,1972879238,,False,False,0,1,0
+1902212503,Cookies,1,-1706154991:-523839730,,False,False,0,-1,1
+-1974675533,Spaghetti II: Extra Starch,1,,,False,False,0,0,2
+1411587046,Spaghetti I: Traditional Recipe,1,,,False,False,0,-1,1
+544487102,Fajitas,1,1972879238,,True,False,0,0,1
+-1451591918,Sundaes II: Homemade,1,-523839730:-1853370850,,False,False,2,2,4
+620309357,Sundaes I: Scoops,1,,,False,False,2,1,4
+934171642,Sundaes,1,,,False,False,0,0,2
+-1272159363,Sandwiches,1,2087693779:-523839730:-1706154991,,True,False,0,1,3
+`,T=x.trim().split(/\r\n|\n/).filter(e=>e).map(e=>{var N,R;const[a,s,n,l,F,r,t,d,p,g,C,f]=e.split(","),k=Number(a),y=Number(n),B=l!=null&&l.length?l.split(":").map(o=>Number(o)):[],D=F.length?F.split(":").map(o=>Number(o)):[],b=r!=null&&r.length?(N=r==null?void 0:r.split(":"))==null?void 0:N.map(o=>Number(o)):[],P=t!=null&&t.length?(R=t==null?void 0:t.split(":"))==null?void 0:R.map(o=>Number(o)):[],M=d==="True",m=p==="True",h=Number(g),c=Number(C),w=Number(f);return{ID:k,Name:s,UnlockGroup:y,Requires:B,BlockedBy:D,RequiredProcesses:b,IngredientProviders:P,isMain:M,isStarterOrSide:m,DishType:h,CustomerMultiplier:c,DishValue:w}});function G(e,a=!0){const s=a&&e.some(n=>n.Name==="Community");return T.filter(n=>{if(e.some(l=>l.ID===n.ID)||n.BlockedBy.some(l=>e.some(F=>F.ID===l))||n.Requires.some(l=>!e.some(F=>F.ID===l)))return!1;if(n.isStarterOrSide)if(e.some(l=>l.isMain)){if(e.length&&e[0].DishType===i.Dessert)debugger}else return!1;return!(!s&&n.DishType===i.Base)}).sort((n,l)=>n.ID-l.ID)}const H=[{ID:447437163,Name:"Country",UnlockGroup:u.Special,Requires:[],BlockedBy:[],RequiredProcesses:[],IngredientProviders:[],isMain:!1,isStarterOrSide:!1,DishType:i.Null,CustomerMultiplier:0,DishValue:0},{ID:2002876295,Name:"City",UnlockGroup:u.Special,Requires:[],BlockedBy:[],RequiredProcesses:[],IngredientProviders:[],isMain:!1,isStarterOrSide:!1,DishType:i.Null,CustomerMultiplier:0,DishValue:0},{ID:-1864906012,Name:"Alpine",UnlockGroup:u.Special,Requires:[],BlockedBy:[],RequiredProcesses:[],IngredientProviders:[],isMain:!1,isStarterOrSide:!1,DishType:i.Null,CustomerMultiplier:0,DishValue:0},T.filter(e=>e.Name==="Community")[0],T.filter(e=>e.Name==="Couples")[0],{ID:1958825350,Name:"Turbo",UnlockGroup:u.Special,Requires:[],BlockedBy:[],RequiredProcesses:[],IngredientProviders:[],isMain:!1,isStarterOrSide:!1,DishType:i.Null,CustomerMultiplier:0,DishValue:0},T.filter(e=>e.Name==="Christmas Rush")[0],{ID:507410699,Name:"January",UnlockGroup:u.Special,Requires:[],BlockedBy:[],RequiredProcesses:[],IngredientProviders:[],isMain:!1,isStarterOrSide:!1,DishType:i.Null,CustomerMultiplier:0,DishValue:0}],z=[...H].sort((e,a)=>e.Name<a.Name?-1:1),j=["Breakfast","Burgers","Hot Dogs","Fish","Pies","Salad","Stir Fry","Pizza","Turkey"].map(e=>T.filter(a=>a.Name===e)[0]),L=V.trim().split(/\r\n|\n/).filter(e=>e).map(e=>{var m,h;const[a,s,n,l,F,r,t,d,p,g]=e.split(","),C=Number(a),f=Number(n),k=l!=null&&l.length?(m=l==null?void 0:l.split(":"))==null?void 0:m.map(c=>Number(c)):[],y=F!=null&&F.length?(h=F==null?void 0:F.split(":"))==null?void 0:h.map(c=>Number(c)):[],B=r==="True",D=t==="True",b=Number(d),P=Number(p),M=Number(g);return{ID:C,Name:s,UnlockGroup:f,Requires:[],BlockedBy:[],RequiredProcesses:k,IngredientProviders:y,isMain:B,isStarterOrSide:D,DishType:b,CustomerMultiplier:P,DishValue:M}}).sort((e,a)=>e.Name<a.Name?-1:1);class I{constructor(a,s){S(this,"fixedSeed");S(this,"instance");S(this,"random");typeof a=="string"&&(a=q(a)),this.fixedSeed=a,this.instance=s,this.random=new O(a+Math.imul(124192293,s))}useSubcontext(a){return new I(this.fixedSeed,124192293*a+this.instance)}}class O{constructor(a){S(this,"seed");const s=t=>Math.imul(1812433253,t)+1>>0,n=a>>0,l=s(n),F=s(l),r=s(F);this.seed=[n,l,F,r]}get value(){let a=this.seed.shift(),s=this.seed[2];return a^=a<<11,a^=a>>>8,s^=s>>>19,s=(s^a)>>0,this.seed.push(s),s}range(a,s){return(this.value>>>0)%(s-a)+a}get valueFloat(){return(this.value<<9>>>0)/4294967295}select(a){return a[this.range(0,a.length)]}}function q(e){const s=new TextEncoder().encode(e);let n=5381,l=s.length;for(;l--;)n=(n<<5)+n+s[l];return n>>0}function W(e,a,s){return new I(s,e*1231231+a)}export{i as D,I as F,z as R,L as S,T as U,H as a,j as b,O as c,W as d,u as e,G as g};
