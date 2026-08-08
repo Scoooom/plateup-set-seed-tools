@@ -54,7 +54,7 @@ const APPLIANCE_PROPERTY_TYPES = [
 // @ts-ignore
 const Appliances: Appliance[] = s
 	.trim()
-	.split("\r\n")
+	.split(/\r\n|\n/)
 	.map((line) => {
 		const l = line.split(",");
 		// @ts-ignore

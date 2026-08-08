@@ -5,7 +5,7 @@ import startingDishExport from "./startingDishes.csv?raw";
 
 export const Unlocks: Unlock[] = cardExport
 	.trim()
-	.split("\r\n")
+	.split(/\r\n|\n/)
 	.filter((a) => a)
 	.map((line) => {
 		const [
@@ -228,7 +228,7 @@ export const SpeedrunDishes = [
 
 export const StartingDishes: Unlock[] = startingDishExport
 	.trim()
-	.split("\r\n")
+	.split(/\r\n|\n/)
 	.filter((a) => a)
 	.map((line) => {
 		const [
