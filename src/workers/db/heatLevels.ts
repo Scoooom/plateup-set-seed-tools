@@ -35,6 +35,9 @@ function heatUnlock(ID: number, Name: string): Unlock {
 		isMain: false,
 		isStarterOrSide: false,
 		DishType: DishType.Null,
+		IsUnlockable: true,
+		MinimumFranchiseTier: 0,
+		IsSpecificFranchiseTier: false,
 	};
 }
 
