@@ -12,6 +12,13 @@ import { Unlock } from "../../kitchenTypes";
 import { ShuffleInPlace } from "../../utils/utils";
 import { FixedSeedContext, RestaurantSystemSeed } from "./prng";
 import { UnlockGroup } from "../../kitchenEnums";
+import { Season, getRestrictedToSeason, getSeason } from "../db/seasons";
+
+const currentSeason = getSeason();
+function isInSeason(appliance: Appliance): boolean {
+	const restriction = getRestrictedToSeason(appliance.ID);
+	return restriction === Season.Normal || restriction === currentSeason;
+}
 
 export let fixPRNG = { value: 0 };
 const PLATE_APPLIANCES = [
@@ -43,7 +50,9 @@ let upgradesAllowed = 0;
 let upgradesDisallowed = 0;
 let expectedUpgrades = 0;
 const shopSize = Appliances.filter(
-	(appliance) => appliance.IsPurchasable || appliance.IsPurchasableAsUpgrade
+	(appliance) =>
+		(appliance.IsPurchasable || appliance.IsPurchasableAsUpgrade) &&
+		isInSeason(appliance)
 ).length;
 export class Shop {
 	seed: string | number;
@@ -178,7 +187,8 @@ export class Shop {
 		let ShopOptions: CShopBuilderOption[] = [];
 		for (const appliance of Appliances) {
 			const flag =
-				!appliance.IsPurchasable && !appliance.IsPurchasableAsUpgrade;
+				(!appliance.IsPurchasable && !appliance.IsPurchasableAsUpgrade) ||
+				!isInSeason(appliance);
 
 			if (!flag) {
 				var option = new CShopBuilderOption(appliance);
