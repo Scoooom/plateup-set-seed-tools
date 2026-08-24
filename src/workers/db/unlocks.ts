@@ -255,6 +255,8 @@ export const SpeedrunDishes = [
 	"Stir Fry",
 	"Pizza",
 	"Turkey",
+	"Fajitas",
+	"Sundaes",
 ].map((name) => Unlocks.filter((a) => a.Name === name)[0]);
 
 export const StartingDishes: Unlock[] = startingDishExport
